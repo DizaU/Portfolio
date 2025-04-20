@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diza Uppal - Portfolio</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f3f0;
+            color: #333;
+        }
+        
+        header {
+            background-color: #5d9b8e;
+            color: white;
+            text-align: center;
+            padding: 2em 0;
+            margin-bottom: 2em;
+        }
+        
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        .profile-section {
+            display: flex;
+            align-items: center;
+            margin-bottom: 3em;
+            gap: 2em;
+        }
+        
+        .profile-pic {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #5d9b8e;
+        }
+        
+        .about-me {
+            flex: 1;
+        }
+        
+        h2 {
+            color: #5d9b8e;
+            border-bottom: 2px solid #5d9b8e;
+            padding-bottom: 0.5em;
+        }
+        
+        .skills-section {
+            margin-bottom: 3em;
+            display: flex;
+            gap: 2em;
+        }
+        
+        .skills-column {
+            flex: 1;
+        }
+        
+        .skill-item {
+            background-color: white;
+            padding: 1em;
+            margin-bottom: 1em;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 1em;
+            margin-bottom: 3em;
+        }
+        
+        .gallery-item {
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        
+        .gallery-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            display: block;
+        }
+        
+        .gallery-caption {
+            background-color: white;
+            padding: 1em;
+        }
+        
+        footer {
+            background-color: #5d9b8e;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            margin-top: 2em;
+        }
+        
+        .contact-section {
+            background-color: white;
+            padding: 2em;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            margin-bottom: 3em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Diza Uppal</h1>
+            <p>Class 9 Student | Football Player | Art Enthusiast</p>
+        </div>
+    </header>
+    
+    <div class="container">
+        <section class="profile-section">
+            <img class="profile-pic" src="/api/placeholder/200/200" alt="Diza Uppal">
+            <div class="about-me">
+                <h2>About Me</h2>
+                <p>Hello! I'm Diza Uppal, a 13-year-old student at Sanskriti School in Delhi. I'm passionate about football and various forms of art and craft. When I'm not studying, you'll find me on the football field improving my skills or working on my latest art project.</p>
+                <p>I believe in balancing academics with creative and physical activities. My goal is to excel in everything I do while enjoying the learning journey.</p>
+            </div>
+        </section>
+        
+        <section>
+            <h2>Education</h2>
+            <div class="skill-item">
+                <h3>Sanskriti School, Delhi</h3>
+                <p>Class 9 Student | 2024-2025</p>
+                <p>I'm currently focusing on building a strong foundation in all subjects while pursuing my passion for arts and sports.</p>
+            </div>
+        </section>
+        
+        <section class="skills-section">
+            <div class="skills-column">
+                <h2>Sports Achievements</h2>
+                <div class="skill-item">
+                    <h3>Football</h3>
+                    <ul>
+                        <li>School Football Team Member</li>
+                        <li>Participated in Inter-school Football Championship 2023</li>
+                        <li>Best Forward Award - School Sports Day 2024</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="skills-column">
+                <h2>Creative Skills</h2>
+                <div class="skill-item">
+                    <h3>Art & Craft</h3>
+                    <ul>
+                        <li>Painting - Watercolors & Acrylics</li>
+                        <li>Paper Crafts & Origami</li>
+                        <li>Mixed Media Art</li>
+                        <li>First Prize in School Art Exhibition 2024</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <h2>My Art Gallery</h2>
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="/api/placeholder/250/200" alt="Watercolor Painting">
+                    <div class="gallery-caption">
+                        <h3>Sunset at the Beach</h3>
+                        <p>Watercolor on Paper, 2024</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="/api/placeholder/250/200" alt="Paper Craft">
+                    <div class="gallery-caption">
+                        <h3>3D Paper Sculpture</h3>
+                        <p>Mixed Media, 2023</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="/api/placeholder/250/200" alt="Acrylic Painting">
+                    <div class="gallery-caption">
+                        <h3>Abstract Emotions</h3>
+                        <p>Acrylic on Canvas, 2024</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="/api/placeholder/250/200" alt="Football Action">
+                    <div class="gallery-caption">
+                        <h3>On the Field</h3>
+                        <p>School Tournament, 2023</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <h2>Football Experience</h2>
+            <div class="skill-item">
+                <h3>My Football Journey</h3>
+                <p>I started playing football when I was 8 years old. What began as casual playground games quickly became a passion. I play as a forward and love the thrill of scoring goals for my team.</p>
+                <p>I practice three times a week and participate in various tournaments throughout the school year. My coach says my strengths are speed and accurate passing.</p>
+            </div>
+        </section>
+        
+        <section class="contact-section">
+            <h2>Contact Me</h2>
+            <p>Email: diza.uppal@student.example.com</p>
+            <p>School: Sanskriti School, Delhi</p>
+            <p>Instagram: @diza.creates (Art Page)</p>
+        </section>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <p>© 2025 Diza Uppal | Portfolio</p>
+            <p>"Balancing academics, sports, and creativity"</p>
+        </div>
+    </footer>
+</body>
+</html>
